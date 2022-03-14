@@ -95,7 +95,6 @@ public class Login extends JFrame implements ActionListener{
 			
 		
 // PANEL Tengah =============================================
-			// frame di tgh utk name, pas, nanti diwarnain , btuoon sign in, label
 			//buttonPanel.setBackground(Color.decode("#00FFFF"));
 			
 			//Panel tgh
