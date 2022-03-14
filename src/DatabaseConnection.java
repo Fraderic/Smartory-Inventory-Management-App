@@ -80,31 +80,4 @@ public class DatabaseConnection {
 	
 	
 	
-	// ini masih salah
-//	public void insertNewitem(int itemId,String item, String kategori, int stok, int barangmasuk,  String supply) {
-//		try {
-//			preparedStatement = connection.prepareStatement(
-//			"INSERT INTO `items` (`itemId`, `item`,`kategori`,`stok`,`barangmasuk`,`supply)"
-//			+ "VALUES (?,?,?,?,?,?)");
-//			
-//		
-//			preparedStatement.setInt(1, itemId);
-//			preparedStatement.setString(3, item);
-//			preparedStatement.setString(4, kategori);
-//			preparedStatement.setInt(5, stok);
-//			preparedStatement.setInt(6, barangmasuk);
-//			preparedStatement.setString(7, supply);
-//
-//			preparedStatement.execute();
-//			
-//		} catch (SQLException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
-	
-	
-	
-	
-	
 }
