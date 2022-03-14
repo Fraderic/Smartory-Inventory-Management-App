@@ -50,10 +50,6 @@ public class TambahStokk extends javax.swing.JFrame {
 	private int i = 0 ;
 	
 	
-	/**
-	 * 
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -74,10 +70,7 @@ public class TambahStokk extends javax.swing.JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 // * @param halamann 
-	 */
+
 	public TambahStokk(Home home) {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -195,10 +188,7 @@ public class TambahStokk extends javax.swing.JFrame {
 					JOptionPane.showMessageDialog(panel, "you have to input Jumlah barang ","wrong input",JOptionPane.ERROR_MESSAGE);
 					return;
 				}
-//				if(!IdField.getText().equals(checker(ItemId.size()+1))) {
-//					JOptionPane.showMessageDialog(panel, "Wrong Message input ","wrong input",JOptionPane.ERROR_MESSAGE);
-//					return;
-//				}
+
 				
 				
 				if(e.getSource()== AddBtn){
@@ -216,8 +206,6 @@ public class TambahStokk extends javax.swing.JFrame {
 				String kategori = (String) comboBox.getSelectedItem();
 				int stok = Integer.valueOf(StockField.getText());
 				
-				//Integer.parseInt(StockField.getText())
-				//String.valueOf(db.resultSet.getObject(1))
 				int barangmasuk = Integer.valueOf(inField.getText());
 				
 				String supply = (String) comboBox_1.getSelectedItem();
@@ -275,13 +263,6 @@ public class TambahStokk extends javax.swing.JFrame {
 				         a.printStackTrace();
 				      }
 				
-//					System.out.println(itemId);
-//			      System.out.println(item);
-//			      System.out.println(kategori);
-//			      System.out.println(stok);
-//			      System.out.println(barangmasuk);
-//			      System.out.println();
-			      
 				j++;
 				
 				home.tambahRow(itemId, item, kategori, stok, barangmasuk, supply);
