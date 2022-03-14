@@ -46,18 +46,7 @@ public class Home extends javax.swing.JFrame {
 	User user ;
 
 	TambahStokk ts = new TambahStokk(this);
-	/**
-	 * Launch the application.
-	 */
-//	public static void main(String[] args) {
-//		
-//		Home window = new Home();
-//		window.frame.setVisible(true);
-//	}
-
-	/**
-	 * Create the application.
-	 */
+	
 	public Home() {
 		initialize();
 	}
@@ -68,9 +57,7 @@ public class Home extends javax.swing.JFrame {
 	
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+
 
 
 	private void initialize() {
@@ -118,8 +105,7 @@ public class Home extends javax.swing.JFrame {
 		
 		JLabel lblNama = new JLabel(user.getUserVek());
 		lblNama.setFont(new Font("Tahoma", Font.PLAIN, 15));
-	//	Image gambar = new ImageIcon(this.getClass().getResource("Ellipse 1.png")).getImage().getScaledInstance(35,  35, Image.SCALE_SMOOTH);
-	//	lblNama.setIcon(new ImageIcon(gambar));
+	
 		lblNama.setBounds(25, 0, 134, 43);
 		panel_2.add(lblNama);
 		
@@ -313,9 +299,6 @@ public class Home extends javax.swing.JFrame {
         label_1_1.setText(totalstokk);
         repaint();
         
-        
-        
-//        System.out.println(totalstokk);
 		
 	}
 	
